@@ -1,0 +1,94 @@
+body {
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Images/BG.png");
+    background-size: cover;
+    color: whitesmoke;
+    align-items: center;
+    font-family: cursive;
+    
+}
+
+.theyugheading{
+    position: relative;
+    font-size: 20px;
+    font-family: "Anger Styles";
+    top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.forusername{
+    display: flex;
+}
+
+.username-input-field{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #2A454B;
+    height: 16px;
+    width: 150px;
+    background-color: #dcf9ff;
+    margin: 5px;
+}
+
+.username{
+    margin: 6px;
+}
+
+.forpassword{
+    display: flex
+}
+
+.password-input-field{
+    border-radius: 5px;
+    border-width: 2px;
+    height: 16px;
+    width:150px;
+    border-color: #2A454B;
+    background-color: #dcf9ff;
+    margin: 5px;
+}
+
+.password{
+    margin: 7px;
+}
+
+.submit-button{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 10px;
+
+}
+
+.submit{
+    border-radius: 10px;
+    align-items: center;
+    width: 100px;
+}
+
+a:link{
+    color: rgb(255, 140, 0);
+}
+a:visited{
+    color: rgb(255, 185, 253);
+}
+a:hover{
+    color: hotpink;
+}
+
+
+.container{
+    position: relative;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 24rem;
+}
